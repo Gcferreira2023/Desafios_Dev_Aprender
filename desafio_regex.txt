@@ -1,0 +1,62 @@
+Desafio 1 - Encontre a palavra simples
+Olá! sou uma frase simples
+
+solução - localizar por "simples"
+
+Desafio 2 - Encontre todas as ocorrências de 23 (os números juntos) e exatamente com esses valores
+dev123com
+developer 123
+dev = 123
+dev = 1234
+dev = 1337
+dev = 9000
+
+solução - localizar por "23"
+
+Desafio 3 - Encontre todos os valores onde o valor inicial é 2, porém o segundo valor você não conhece. ex: 23,24,26, etc.
+
+solução - localizar por "2\d"
+
+Desafio 4 - Usando os valores a seguir, encontre os seguintes números por completo:
+13.35.86
+22.36.77
+53.12.34
+
+solução - localizar por "\d\d\.\d\d\.\d\d"
+
+Desafio 5 - Encontre apenas as combinações de acordo com o descrito abaixo:
+bah pular
+tah encontrar
+jah encontrar
+nah encontrar
+uai pular
+
+solução - localizar por "[tjn]ah"
+
+Desafio 6 - Encontre as combinações de acordo com o descrito abaixo:
+(123)1234-1235 encontrar
+(123)1234-1235 encontrar
+(129)1234-1235 pular
+(129)1234-1235 pular
+
+solução - localizar por "([(]123[)])\d\d\d\d[-]\d\d\d\d"
+
+Desafio 7 - Encontre apenas a sequência 1234 abaixo:
+1234 encontrar
+6462 pular
+
+solução - localizar por "[1-4]"
+
+Desafio 8 - Encontre apenas as letras iniciando de P a V:
+pqrstuv encontrar
+wxyz pular
+abcdefg pular
+
+solução - localizar por "[p-v]"
+
+Desafio 9 - Encontrar tanto pizzas enviadas como pizza enviadas
+2 pizzas enviadas
+1 pizza enviada
+3 pizzas enviadas
+
+solução - localizar por "pizzas? enviadas?"
